@@ -2,7 +2,7 @@
 title:            "Soggy Cupcakes"
 tagline:          "by Kevin Rohrbaugh"
 description:      "Made by a programmer and gamer in San Francisco."
-url:              "http://soggycupcakes.com"
+url:              "http://www.kevinrohrbaugh.com"
 baseurl:          "/"
 paginate:         5
 
@@ -10,8 +10,17 @@ paginate:         5
 author:
   name:           "Kevin Rohrbaugh"
   email:          "kevin+blog@rhrbgh.com"
+  twitter:        "https://twitter.com/krohrbaugh"
+  github:         "https://github.com/krohrbaugh"
+  linkedin:       "https://www.linkedin.com/in/krohrbaugh"
+  steam:          "http://steamcommunity.com/id/krohrbaugh"
 
 # Build settings
 markdown:         kramdown
 highlighter:      pygments
 permalink:        pretty
+gems:
+  - jekyll-assets
+
+assets:
+  css_compressor: sass

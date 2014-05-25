@@ -1,0 +1,15 @@
+@import "vendor/lanyon";
+@import "vendor/monosocial";
+
+.symbol {
+  font-size: 2rem;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto 1em auto;
+}

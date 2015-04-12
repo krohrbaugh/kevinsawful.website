@@ -1,7 +1,7 @@
-ruby "2.1.2"
+ruby "2.2.0"
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 2.0.3"
-gem "jekyll-assets", "~> 0.7.8"
-gem "uglifier", "~> 2.5.0"
+gem "jekyll", "~> 2.5.3"
+gem "jekyll-assets", "~> 0.12.1"
+gem "uglifier", "~> 2.6.0"

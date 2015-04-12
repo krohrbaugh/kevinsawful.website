@@ -1,5 +1,6 @@
 @import "vendor/lanyon";
 @import "vendor/monosocial";
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 .masthead-title {
   position: relative;
@@ -7,11 +8,16 @@
 
 .logo {
   position: absolute;
-  top: -55px;
-  right: 0;
+  top: -60px;
+  right: -64px;
   width: 128px;
   height: 128px;
-  margin: 0 0.5em 0 0;
+  margin: 0 0.5rem 0 0;
+}
+@media (min-width: 38rem) {
+  .logo {
+    right: 0;
+  }
 }
 
 .symbol {
@@ -22,7 +28,17 @@
   }
 }
 
-.profile {
+.about-headshot{
   width: 50%;
   margin: 0 auto 1em auto;
+}
+
+code, pre {
+  font-family: Inconsolata, Menlo, Monaco, "Courier New", monospace;
+}
+pre {
+  white-space: pre;
+  word-break: inherit;
+  word-wrap: inherit;
+  overflow-x: auto;
 }

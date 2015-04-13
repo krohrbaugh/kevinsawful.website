@@ -19,10 +19,10 @@ Instead, I use [Dropbox][db]'s desktop client to accomplish the same thing for
 free. Here's how to do it (using [Terminal on Mac][terminal] or [admin-mode
 Command Prompt ][cmd-prompt] on PC):
 
-1. Setup Dropbox to sync a local folder ([sign up for a free account][db-
-signup]) 2. On your primary computer, which has your up-to-date add-ons and
-settings, move your settings and add-ons folders to a `World of Warcraft` folder
-inside your synced Dropbox folder
+1. Setup Dropbox to sync a local folder ([sign up for a free account][db-signup])
+2. On your primary computer, which has your up-to-date add-ons and settings,
+move your settings and add-ons folders to a `World of Warcraft` folder inside
+your synced Dropbox folder
 
     ```bash
     #

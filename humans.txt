@@ -1,0 +1,26 @@
+---
+layout: null
+---
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Author: Kevin Rohrbaugh
+  Contact: kevin [at] rhrbgh.com
+  Site: soggycupcakes.com/
+  Twitter: @krohrbaugh
+  Location: San Francisco, CA
+
+# THANKS
+
+  Theme: Mark Otto
+  Site: markdotto.com/
+  Twitter: @mdo
+
+# TECHNOLOGY
+
+  Last Update: {{ site.time }}
+  Standards: CSS3, HTML5
+  Software: Jekyll, Ruby
+  Services: AWS S3, AWS CloudFront

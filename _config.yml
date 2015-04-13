@@ -2,10 +2,11 @@
 title:            "Soggy Cupcakes"
 tagline:          "by Kevin Rohrbaugh"
 description:      "Made by a programmer and gamer in San Francisco."
-url:              "http://www.kevinrohrbaugh.com"
+url:              "http://soggycupcakes.com"
 baseurl:          "/"
 paginate:         5
 jquery-version:   "2.1.3"
+ga-identifier:    "UA-61801088-1"
 
 # Author settings
 author:
@@ -22,9 +23,17 @@ highlighter:      pygments
 permalink:        pretty
 gems:
   - jekyll-assets
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - s3_website.yml
 
 kramdown:
   input: GFM
 
 assets:
   css_compressor: sass
+  js_compressor: uglifier

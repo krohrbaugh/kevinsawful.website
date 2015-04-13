@@ -29,6 +29,7 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - script
   - s3_website.yml
 
 kramdown:

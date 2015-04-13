@@ -1,0 +1,2 @@
+bundle exec jekyll build --lsi
+bundle exec s3_website push

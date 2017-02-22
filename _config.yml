@@ -38,3 +38,8 @@ kramdown:
 assets:
   css_compressor: sass
   js_compressor: uglifier
+  sources:
+    - _assets/images
+    - _assets/images/posts
+    - _assets/javascripts
+    - _assets/stylesheets

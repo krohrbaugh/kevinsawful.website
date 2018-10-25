@@ -10,7 +10,7 @@ tags: communication code-review
 These terms are intended to succinctly communicate a concept, yet easily become
 conflict-laden clichés. Avoid them to improve discussions about code.
 
-{% image posts/hero-gorilla.jpg %}
+{% asset posts/hero-gorilla.jpg %}
 
 For instance, _YAGNI_, _DRY_, and _KISS_ are frequently employed as arguments to
 simplify needlessly complex code. Unfortunately, they can also be used to wave

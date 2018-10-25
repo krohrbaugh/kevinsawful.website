@@ -1,7 +1,7 @@
-# AWS IAM User: soggycupcakes
+# AWS IAM User
 s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
-s3_bucket: soggycupcakes.com
+s3_bucket: <%= ENV['S3_BUCKET'] %>
 
 max_age:
   "assets/*": 6000
@@ -10,7 +10,7 @@ max_age:
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
 s3_endpoint: us-west-2
 
-# cloudfront_distribution_id: <%= ENV['CF_DISTRIBUTION_ID'] %>
+cloudfront_distribution_id: <%= ENV['CF_DISTRIBUTION_ID'] %>
 
 # cloudfront_distribution_config:
 #   default_cache_behavior:

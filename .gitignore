@@ -1,4 +1,4 @@
-_site/
-.sass-cache/
 .env
-s3website.yml
+.jekyll-cache/
+.sass-cache/
+_site/

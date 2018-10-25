@@ -16,15 +16,15 @@
   {% comment %}
     Icons
   {% endcomment %}
-  <link rel="apple-touch-icon" href="{% asset_path touchicon-152.png %}">
-  <link rel="icon" sizes="16x16" href="{% asset_path favicon-16.png %}">
-  <link rel="icon" sizes="32x32" href="{% asset_path favicon-32.png %}">
-  <link rel="icon" sizes="48x48" href="{% asset_path favicon-48.png %}">
-  <link rel="icon" sizes="64x64" href="{% asset_path favicon-64.png %}">
-  <link rel="icon" sizes="128x128" href="{% asset_path favicon-128.png %}">
+  <link rel="apple-touch-icon" href="{% asset touchicon-152.png @path %}">
+  <link rel="icon" sizes="16x16" href="{% asset favicon-16.png @path %}">
+  <link rel="icon" sizes="32x32" href="{% asset favicon-32.png @path %}">
+  <link rel="icon" sizes="48x48" href="{% asset favicon-48.png @path %}">
+  <link rel="icon" sizes="64x64" href="{% asset favicon-64.png @path %}">
+  <link rel="icon" sizes="128x128" href="{% asset favicon-128.png @path %}">
 
   {% comment %}
     Styles
   {% endcomment %}
-  {% stylesheet site %}
+  {% asset site.css %}
 </head>

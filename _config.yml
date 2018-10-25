@@ -1,8 +1,8 @@
 # Site settings
-title:            "Soggy Cupcakes"
-tagline:          "by Kevin Rohrbaugh"
+title:            "Kevin's Awful Website"
+# tagline:          "by Kevin Rohrbaugh"
 description:      "Made by a programmer and gamer in San Francisco."
-url:              "http://soggycupcakes.com"
+url:              "http://kevinsawful.website"
 baseurl:          "/"
 paginate:         5
 jquery-version:   "2.1.3"
@@ -21,8 +21,9 @@ author:
 markdown:         redcarpet
 highlighter:      pygments
 permalink:        pretty
-gems:
+plugins:
   - jekyll-assets
+  - jekyll-paginate
   - jekyll-sitemap
 exclude:
   - Gemfile

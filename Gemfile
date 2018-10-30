@@ -2,6 +2,7 @@ ruby "2.5.1"
 
 source "https://rubygems.org"
 
+gem "classifier-reborn", "~> 2.2.0"
 gem "jekyll", "~> 3.8.4"
 gem "jekyll-assets", "~> 3.0.11"
 gem "jekyll-paginate", "~> 1.1.0"

@@ -16,6 +16,8 @@ GEM
     aws-sdk-resources (2.11.157)
       aws-sdk-core (= 2.11.157)
     aws-sigv4 (1.0.3)
+    classifier-reborn (2.2.0)
+      fast-stemmer (~> 1.0)
     colorator (1.1.0)
     colored (1.2)
     concurrent-ruby (1.0.5)
@@ -31,6 +33,7 @@ GEM
     execjs (2.7.0)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
+    fast-stemmer (1.0.2)
     fastimage (2.1.4)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
@@ -123,6 +126,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  classifier-reborn (~> 2.2.0)
   jekyll (~> 3.8.4)
   jekyll-assets (~> 3.0.11)
   jekyll-paginate (~> 1.1.0)

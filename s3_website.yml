@@ -8,7 +8,7 @@ max_age:
   "*": 300
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
-s3_endpoint: us-west-2
+s3_endpoint: <%= ENV['S3_REGION'] %>
 
 cloudfront_distribution_id: <%= ENV['CF_DISTRIBUTION_ID'] %>
 
